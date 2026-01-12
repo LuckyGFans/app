@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline';">
+    <title>VPN Desktop (scaffold)</title>
+    <style>
+      body { font-family: Arial, sans-serif; padding: 18px; }
+      .row { margin-bottom: 8px; }
+      #log { white-space: pre-wrap; background:#f7f7f7; padding:8px; height:120px; overflow:auto }
+    </style>
+  </head>
+  <body>
+    <h3>VPN 1.0 Lukapp
+    </h3>
+    <div class="row">Status: <span id="status">idle</span></div>
+    <div class="row"><button id="toggle">Connect</button></div>
+
+    <h4>Settings</h4>
+    <div class="row">
+      <label>Mode: <select id="mode"><option value="mock">mock</option><option value="cmd">command</option></select></label>
+    </div>
+    <div class="row">
+      <label>Command: <input id="command" style="width:100%" placeholder="(optional) e.g. wg-quick up wg0 or openvpn --config my.conf"/></label>
+    </div>
+    <div class="row">
+      <label>VPN Type: <select id="vpnType"><option value="wireguard">WireGuard</option><option value="openvpn">OpenVPN</option></select></label>
+    </div>
+    <div class="row">
+      <label>Config Path: <input id="configPath" style="width:80%" placeholder="Absolute path to config (e.g. C:\\Users\\you\\wg0.conf)"/></label>
+      <button id="chooseFile">Choose...</button>
+    </div>
+    <div class="row"><button id="save">Save</button></div>
+
+    <h4>Logs</h4>
+    <div id="log"></div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
