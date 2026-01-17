@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Electron build artifacts
+*.app
+*.exe
+*.dmg
+*.deb
+*.rpm
+
+# Logs
+*.log
+logs/
+vpn-logs/
+e2e-electron-stdout.log
+e2e-electron-stderr.log
+
+# Test results
+e2e-results.xml
+
+# Configuration and secrets
+daemon.token
+vpn-config.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Package manager lock files (keep package-lock.json but ignore others)
+yarn.lock
+pnpm-lock.yaml
+
+# User data
+*.bak
+*.backup

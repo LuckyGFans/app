@@ -1,0 +1,42 @@
+[
+    {
+        "id": "us-west",
+        "name": "United States — us-west",
+        "vpnType": "wireguard",
+        "windowsPath": "C:\\vpn-configs\\us-west.conf",
+        "posixPath": "/home/user/vpn-configs/us-west.conf",
+        "notes": "Example path — replace with user-specific location"
+    },
+    {
+        "id": "uk-london",
+        "name": "United Kingdom — uk-london",
+        "vpnType": "openvpn",
+        "windowsPath": "C:\\vpn-configs\\uk-london.conf",
+        "posixPath": "/home/user/vpn-configs/uk-london.conf",
+        "notes": "Example path — replace with user-specific location"
+    },
+    {
+        "id": "de-frankfurt",
+        "name": "Germany — de-frankfurt",
+        "vpnType": "wireguard",
+        "windowsPath": "C:\\vpn-configs\\de-frankfurt.conf",
+        "posixPath": "/home/user/vpn-configs/de-frankfurt.conf",
+        "notes": "Example path — replace with user-specific location"
+    },
+    {
+        "id": "sg-singapore",
+        "name": "Singapore — sg-singapore",
+        "vpnType": "openvpn",
+        "windowsPath": "C:\\vpn-configs\\sg-singapore.conf",
+        "posixPath": "/home/user/vpn-configs/sg-singapore.conf",
+        "notes": "Example path — replace with user-specific location"
+    },
+    {
+        "id": "au-sydney",
+        "name": "Australia — au-sydney",
+        "vpnType": "wireguard",
+        "windowsPath": "C:\\vpn-configs\\au-sydney.conf",
+        "posixPath": "/home/user/vpn-configs/au-sydney.conf",
+        "notes": "Example path — replace with user-specific location"
+    }
+]
