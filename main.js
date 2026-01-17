@@ -352,7 +352,7 @@ ipcMain.handle('vpn-disconnect', async (event, args) => {
         } catch (e) {
             // daemon not available, fall through
         }
-        const cmd = buildDisconnectCommand(vpnType, validated);
+        const cmd = buildDisconnectCommand(args.type, validated);
         await runPrivileged(cmd);
         return { ok: true };
     } catch (err) {
