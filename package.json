@@ -1,0 +1,17 @@
+{
+    "name": "vpn-desktop",
+    "version": "0.1.0",
+    "description": "Minimal Electron VPN desktop scaffold (mock + hooks for real VPN commands)",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "dev": "electron .",
+        "e2e": "node e2e-test.js"
+    },
+    "devDependencies": {
+        "electron": "^26.0.0"
+    },
+    "dependencies": {
+        "sudo-prompt": "^9.2.1"
+    }
+}
