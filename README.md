@@ -11,16 +11,33 @@ What it provides
 Security note
 - The scaffold does not bundle or configure any VPN servers. Running real VPN commands requires administrator privileges and appropriate config files. Only run commands you trust.
 
-Quick start (Windows)
+Quick start
+
+**Option 1: Using the launcher script (recommended)**
+
+On Windows:
+```powershell
+.\launch.bat
+```
+
+On Linux/Mac:
+```bash
+./launch.sh
+```
+
+The launcher script will automatically install dependencies if needed and start the app.
+
+**Option 2: Manual setup**
+
 1. Install dependencies:
 
-```powershell
+```bash
 npm install
 ```
 
 2. Run the app:
 
-```powershell
+```bash
 npm start
 ```
 
